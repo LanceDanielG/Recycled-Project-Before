@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: #3a3a3a;
+}
+
+.regWrap {
+    height: 100vh;
+}
+
+input[type = submit] {
+    color: white;
+    background-color: #3a3a3a;
+}
+
+.submit-button{
+    text-decoration: none;
+    color: white;
+    background-color: #3a3a3a;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.submit-button:hover{
+    color: white;
+    background-color: #3a3a3a;
+}
+
+.selection , input[type = text], 
+input[type = password], input[type = email], 
+input[type = number], input[type = date], input[type = tel] {
+    border-bottom: 1px solid #3a3a3a;
+}
+
